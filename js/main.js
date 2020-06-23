@@ -74,11 +74,8 @@ accIconLink.addEventListener("click", function (e) {
 
 let mainSlider= document.querySelector('.swiper-container');
 var mySwiper = new Swiper (mainSlider, {
-	// slideClass: 'ibg',
-	// slideActiveClass: '.top-slider__slide-bd--active',
-	// wrapperClass: ".swiper-wrapper",
-	// autoHeight: true,
 	slidesPerView: 1,
+  // lazyLoading: true,
 	loop: true,
 	autoHeight: false,
 
@@ -93,8 +90,7 @@ var mySwiper = new Swiper (mainSlider, {
 
 let lotsSlider = document.querySelector('.lots-slider');
 var lotsSwiper = new Swiper(lotsSlider,{
-		// wrapperClass: 'swiper-wrapper',
-		// slideClass: 'swiper-slide',
+    lazyLoading: true,
 		slidesPerView: 3,
 		loop: true,
 		autoHeight: false,
