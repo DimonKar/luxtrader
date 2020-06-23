@@ -1242,7 +1242,7 @@ body.ie .ibg img {
 .user-menu__link--01:before {
 	content: "";
 	display: inline-block;
-	background: url("../img/header/user-menu/01.png") 0 0 no-repeat;
+	background: url("../img/header/user-menu/icon-01.webp") 0 0 no-repeat;
 	width: 13px;
 	height: 13px;
 	margin: 0px 12px 0px 0px;
@@ -2405,7 +2405,7 @@ body.ie .ibg img {
 	left: 0;
 	width: 85px;
 	height: 100%;
-	background: url("../img/block-categories/text-decor.png");
+	background: url("../img/block-categories/text-decor.webp");
 	background-repeat: repeat-y;
 }
 .about:before {
@@ -2416,7 +2416,7 @@ body.ie .ibg img {
 	left: 0;
 	width: 85px;
 	height: 12px;
-	background: url("../img/block-categories/text-decor_header.png") no-repeat;
+	background: url("../img/block-categories/text-decor_header.webp") no-repeat;
 }
 @media (max-width: 479.98px) {
 	.about:after, .about:before {
