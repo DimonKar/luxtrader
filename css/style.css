@@ -2523,7 +2523,6 @@ body.ie .ibg img {
 	-webkit-box-flex: 0;
 	    -ms-flex: 0 0 66px;
 	        flex: 0 0 66px;
-	height: 66px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
