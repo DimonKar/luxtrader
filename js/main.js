@@ -428,11 +428,17 @@ window.Element && !Element.prototype.closest && (Element.prototype.closest = fun
   };
 })
 var html = document.body.parentNode;
-let accIconLink = document.querySelector('.user-menu__link-open');
+var account_icon = document.querySelector('.user-menu__link-open');
 var userMenuBody = document.querySelector('.user-menu__body');
 
-accIconLink.addEventListener("click", function (e) {
+account_icon.addEventListener("click", function (e) {
 	userMenuBody.classList.toggle('is_activated');
+});
+
+document.documentElement.addEventListener("click", function (e) {
+	if (!e.target.closest('.user-menu')) {
+		userMenuBody.classList.remove('is_activated');
+	}
 });
 
 let mainSlider= document.querySelector('.swiper-container');
